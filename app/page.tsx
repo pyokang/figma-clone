@@ -1,5 +1,9 @@
-import { CollaborativeApp } from "./CollaborativeApp";
+import { Live } from "@/components/live";
 
 export default function Page() {
-  return <h1 className="text-5xl text-white">Hi</h1>;
+  return (
+    <div>
+      <Live />
+    </div>
+  );
 }
